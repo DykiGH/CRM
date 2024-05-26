@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane prefHeight="550.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RootLayoutController">
+   <top>
+      <HBox prefHeight="76.0" prefWidth="893.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnCommande" mnemonicParsing="false" prefHeight="103.0" prefWidth="325.0" styleClass="button-white" stylesheets="@../ressources/styles.css" text="Commande" />
+            <Button fx:id="btnLivraison" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="325.0" styleClass="button-white" stylesheets="@../ressources/styles.css" text="Livraison" />
+            <Button fx:id="btnFacturation" layoutX="335.0" layoutY="10.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="325.0" styleClass="button-white" stylesheets="@../ressources/styles.css" text="Facturation" />
+            <Button fx:id="btnDetailErreur" layoutX="605.0" layoutY="10.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="325.0" styleClass="button-white" stylesheets="@../ressources/styles.css" text="Détail Erreur" />
+         </children>
+      </HBox>
+   </top>
+</BorderPane>

@@ -1,0 +1,18 @@
+.button-blue {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+}
+
+.button-white {
+    -fx-background-color: lightgrey;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-alignment: center;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+}

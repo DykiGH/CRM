@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polyline?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="439.0" prefWidth="724.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DetailErreurController">
+   <children>
+      <TableView fx:id="tabDetailErreur" layoutX="14.0" layoutY="12.0" prefHeight="411.0" prefWidth="459.0">
+         <columns>
+            <TableColumn fx:id="fxNumClient" prefWidth="100.0" style="-fx-alignment: CENTER;" text="N°Client" />
+            <TableColumn fx:id="fxErreur" prefWidth="358.0" style="-fx-alignment: CENTER;" text="Détails de l'erreur" />
+         </columns>
+      </TableView>
+      <Button fx:id="btnPrecedentDetailErreur" layoutX="517.0" layoutY="163.0" mnemonicParsing="false" onAction="#toFacturation" prefHeight="93.0" prefWidth="98.0" style="-fx-background-color: #bc4743; -fx-background-radius: 50%; -fx-border-color: black; -fx-border-radius: 50%;" text="Précédent" />
+      <Line endX="566.0" endY="149.99998474121094" layoutX="-18.0" layoutY="138.0" startX="582.0" startY="119.0" />
+      <Polyline fill="#6b9045" layoutX="-71.0" layoutY="135.0" points="584.0, 122.0, 630.0, 131.5, 584.0, 147.0, 584.0, 122.0" strokeType="INSIDE" />
+      <Line endX="101.0" endY="20.0" layoutX="459.0" layoutY="246.0" startX="54.0" startY="23.5" />
+   </children>
+</AnchorPane>
